@@ -1,0 +1,34 @@
+    body {
+        background-image: url("img/ceu.gif");
+    }
+    
+    .calculadora {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ec84e71a;
+        width: 360px;
+        height: 500px;
+        border-radius: 25px
+    }
+    
+    .calculadora td button {
+        display: block;
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+        background-color: rgba(231, 172, 221, 0.56);
+    }
+    
+    #total {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 100px;
+        line-height: 100px;
+        background-color: rgba(231, 172, 221, 0.56);
+        border-radius: 25px;
+        overflow-y: scroll;
+    }
